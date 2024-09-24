@@ -142,7 +142,7 @@
         }
 
         const epochParam = getParameterByName('epoch');
-        const targetDate = epochParam ? new Date(parseInt(epochParam) * 1000) : new Date("2024-09-09T00:00:00");
+        const targetDate = epochParam ? new Date(parseInt(epochParam) * 1000) : new Date("2026-06-26T00:00:00");
 
         document.getElementById("target-date").textContent = `UNTIL ${targetDate.toDateString()}`;
 
